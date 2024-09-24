@@ -1,0 +1,256 @@
+.geral{
+    height: 1200px;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    background-color: #1985d4;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.meu-menu{
+   background-color: #1985d4;
+display: flex;
+width: 100%;
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    justify-content: space-between;
+    background-color: #1985d4;
+    
+    
+}
+    
+    a:hover{
+        color:blue;
+        letter-spacing: 2px;
+    }
+.menu-left{
+    display: flex;
+    flex:2;
+    background-color: #1985d4;
+    font-family: "Open Sans", sans-serif;
+    color: aqua;
+}
+.menu-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+   
+}
+
+
+.titulo{
+    background-color:#1985d4;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-size: xx-large;
+    
+}
+.jogos{
+    background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
+    height: 300px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: 100% 100%;
+}
+.jogos1,.jogos2,.jogos3{
+    flex:1;
+    border-radius: 10%;
+    margin-left: 10%;
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+.patrocinadores{
+    
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
+    background-size: 100% 100%;
+}
+.patro{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3%;
+    width: 100%;
+    height: 200px;
+    margin-right: 10%;  
+    border-radius: 10%;  
+}
+.pat1,.pat2,.pat3{
+    flex:1;
+    border-radius: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2%;
+}
+.pat1{
+background-image: url(../image/WhatsApp\ Image\ 2024-09-20\ at\ 19.27.32.jpeg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.pat2{
+background-image: url(../image/WhatsApp\ Image\ 2024-09-20\ at\ 19.27.33.jpeg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+.pat3{
+background-image: url(../image/WhatsApp\ Image\ 2024-09-20\ at\ 19.27.33\ \(1\).jpeg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.Jogadores{
+   height: 300px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background-repeat: no-repeat;
+   background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
+   background-size: 100% 100%;
+}
+
+
+
+.logo{
+   height: 100px;
+   width: 100px;
+   border-radius: 100%;
+ background-image: url(../image/1676989291150.png); 
+  background-size: 100px;
+  background-position: 0%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: 20%;
+ 
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.news-right{ 
+   
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.news-left{
+
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    height: 150px;
+    font-size: 90px;
+}
+.titulo-news{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
+    background-size: 100% 100%;
+}
+a{
+    margin:20px;
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.jog1{
+    background-image: url(../image/IMG-20240920-WA0116.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 200px;
+    margin-top: 3%;
+    margin: 7px;
+    border-radius: 10%;
+
+    
+}
+.jog2{
+    background-image: url(../image/IMG-20240920-WA0117.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 200px;
+    margin-top: 3%;
+    margin: 7px;
+    border-radius: 10%;
+}
+.jog3{
+    background-image: url(../image/IMG-20240920-WA0118.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 200px;
+    margin-top: 3%;
+    margin: 7px;
+    border-radius: 10%;
+}
+
+
+.jogos1{
+    background-image: url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 19.36.37\ \(2\).jpeg);
+   background-size: 100% 250px;
+   background-repeat: no-repeat;
+}
+.jogos2{
+    background-image: url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 19.36.37\ \(1\).jpeg);
+    background-size: 100% 250px;
+   background-repeat: no-repeat;
+}
+.jogos3{
+    background-image: url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 19.36.37.jpeg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+
+}
+.ultimos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1%;
+    width: 100%;
+    height: 170px;
+    margin-right: 10%;  
+    border-radius: 10%;  
+}
+body{
+    background-image: url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 19.55.40.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
