@@ -1,12 +1,14 @@
 .geral{
     width: 100%;
     height: 100%;
-    background-image: url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 19.55.40.jpeg);
+    display: flexbox;
+ 
+    
 }
 
 .container{
     width: 100%;
-    background-color: #1985d4;
+    display: flexbox;
 }
 
 *{
@@ -17,12 +19,14 @@
 section{
     display: flex;
     justify-content: center;
+    display: flexbox;
 }
 
 .meu-menu{
    background-color: #1985d4;
 display: flex;
 width: 100%;
+display: flexbox;
 
 }
 .menu{
@@ -30,52 +34,54 @@ width: 100%;
     justify-content: center;
     height: 150px;
     justify-content: space-between;
-    background-color: #1985d4;
-    
-    
+    background-color: #1985d4;  
+    display: flexbox;
 }
     
     a:hover{
         color:blue;
         letter-spacing: 0.1px;
-        box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
-        border-radius: 20%;
+        display: flexbox;
     }
 .menu-left{
     display: flex;
     flex:2;
-    background-color: #1985d4;
     font-family: "Open Sans", sans-serif;
-    color: aqua;
     justify-content: center;
     align-items: center;
     width: 100%;
+    display: flexbox;
+
 }
 .menu-right{
     display: flex;
-    flex: 1;
+    flex: 2;
     justify-content: center;
     align-items: center;
-    color: aqua;
+    display: flexbox;
    
 }
 
 
 .titulo{
-    background-color:#1985d4;
+ 
     justify-content: center;
     align-content: center;
     display: flex;
     font-size: xx-large;
+    display: flexbox; 
+    color: #1985d4
     
 }
 .jogos{
     background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
-    height: 300px;
+    height: 400px;
     justify-content: center;
     background-repeat: no-repeat;
     display: flex;
     background-size: 100% 100%;
+    display: flexbox;
+    margin-bottom: 200px;
 }
 .ultimos div img{
     width: 100%;
@@ -84,24 +90,28 @@ width: 100%;
 }
 .ultimos div:hover{
     transform: translateY(-10px);
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2)
+
+    
 }
 .jogos1,.jogos2,.jogos3{
     flex:1;
     border-radius: 10%;
     margin-left: 10%;
     display: flex;
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 350px;
+    display: flexbox;
 }
 .patrocinadores{
     
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
     background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
     background-size: 100% 100%;
+    display: flexbox;
+    margin-bottom: 200px;
 }
 .patro{
     display: flex;
@@ -109,9 +119,10 @@ width: 100%;
     align-content: center;
     margin-top: 3%;
     width: 100%;
-    height: 200px;
+    height: 300px;
     margin-right: 10%;  
     border-radius: 10%;  
+    display: flexbox;
 }
 .patro div a{
 display: block;
@@ -125,7 +136,7 @@ height: 100%;
 }
 .patro div:hover{
     transform: translateY(-10px);
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2)
+
 }
 
 .pat1,.pat2,.pat3{
@@ -136,42 +147,48 @@ height: 100%;
     justify-content: center;
     align-items: center;
     margin-top: -2%;
+    display: flexbox;
 }
 .pat1{
 background-image: url(../image/WhatsApp\ Image\ 2024-09-20\ at\ 19.27.32.jpeg);
 background-repeat: no-repeat;
 background-size: 100% 100%;
+display: flexbox;
 }
 .pat2{
 background-image: url(../image/WhatsApp\ Image\ 2024-09-20\ at\ 19.27.33.jpeg);
 background-repeat: no-repeat;
 background-size: 100% 100%;
-
+display: flexbox;
 }
 .pat3{
 background-image: url(../image/WhatsApp\ Image\ 2024-09-20\ at\ 19.27.33\ \(1\).jpeg);
 background-repeat: no-repeat;
 background-size: 100% 100%;
+display: flexbox;
 }
 .Jogadores{
-   height: 300px;
+   height: 400px;
    width: 100%;
    display: flex;
    justify-content: center;
    background-repeat: no-repeat;
    background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
    background-size: 100% 100%;
+   display: flexbox; 
+   margin-bottom: 200px;
 
 }
 .time div img{
      width: 100%;
      height: 100%;
      transition: transform 0.3s ease;
+     display: flexbox;
 }
 .time div:hover{
 transform: translateY(-10px);
 box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
-
+display: flexbox;
 }
 
 .time{
@@ -179,38 +196,30 @@ box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
     display: flex;
     width: 100%;
     justify-content: center;
-
+    display: flexbox;
 }
 
 .logo{
    height: 155px;
    width: 155px;
    border-radius: 100%;
- background-image: url(../image/1676989291150.png); 
-  background-size: 190px 417px;
+  background-image: url(../image/1676989291150.png); 
+  background-size: 170px 417px;
   background-position: 40% 53.9%;
   background-repeat: no-repeat;
   justify-content: center;
   align-content: center;
   align-items: center;
-  
+  display: flexbox;
 
- 
 }
 
 .links{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    display: flexbox;
 }
-.news-right{ 
-   
-    align-content: center;
-    justify-content: center;
-    display: flex;
-}
-
 .news-left{
 
     align-content: center;
@@ -218,6 +227,7 @@ box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
     display: flex;
     font-size: 80px;
     font-family: 'Times New Roman', Times, serif;
+    display: flexbox;
 
 }
 .titulo-news{
@@ -226,59 +236,68 @@ box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
     display: flex;
     background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
     background-size: 100% 100%;
+    display: flexbox;
 }
 a{
     margin:20px;
     font-size: 25px;
     color: aliceblue;
     text-decoration: none;
+    display: flexbox;
 }
 .jog1{
     background-image: url(../image/IMG-20240920-WA0116.jpg);
     background-size: 100%;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin-top: 3%;
-    margin: 70px;
+    margin: 10px;
     border-radius: 10%;
-
+    background-repeat: no-repeat;
+    display: flexbox;
     
 }
 .jog2{
     background-image: url(../image/IMG-20240920-WA0117.jpg);
     background-size: 100%;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin-top: 5%;
-    margin: 70px;
+    margin: 10px;
     border-radius: 10%;
+    background-repeat: no-repeat;
+    display: flexbox;
 }
 .jog3{
     background-image: url(../image/IMG-20240920-WA0118.jpg);
     background-size: 100%;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin-top: 5%;
-    margin: 70px;
+    margin: 10px;
     border-radius: 10%;
+    background-repeat: no-repeat;
+    display: flexbox;
 }
 
 
 .jogos1{
     background-image: url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 19.36.37\ \(2\).jpeg);
-   background-size: 100% 250px;
+   background-size: 100% 100%;
    background-repeat: no-repeat;
+   display: flexbox;
 }
 .jogos2{
     background-image: url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 19.36.37\ \(1\).jpeg);
-    background-size: 100% 250px;
+    background-size: 100% 100%;
    background-repeat: no-repeat;
+   display: flexbox;
 }
 .jogos3{
     background-image: url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 19.36.37.jpeg);
-    background-size: 100% 250px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-
+    display: flexbox;
 }
 .ultimos{
     display: flex;
@@ -286,9 +305,10 @@ a{
     align-content: center;
     margin-top: 1%;
     width: 100%;
-    height: 170px;
+    height: 100%;
     margin-right: 10%;  
     border-radius: 10%;  
+    display: flexbox;
 }
 .rodape{
     display: flex;
@@ -296,4 +316,45 @@ a{
     background-color: black;
     width: 100%;
     color: white;
+    display: flexbox;
+}
+.banner{
+  background-image: url(../image/WhatsApp\ Image\ 2024-09-25\ at\ 20.36.42.jpeg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    background-position: 0%;
+    display: flexbox;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+
+}
+.trofeus{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+}
+.time{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    display: flexbox;
+}
+.titulos{
+    background-color: white;
+
+}
+.NextJogos{
+width: 100%;
+height: 200px;
+margin-top: 100px;
+margin-bottom: 100px;
+
+
 }
