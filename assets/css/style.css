@@ -113,7 +113,6 @@ flex-wrap: wrap;
     background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
     background-size: 100% 100%;
     flex-wrap: wrap;
-    margin-bottom: 200px;
 }
 .patro{
     display: flex;
@@ -173,7 +172,7 @@ background-size: 100% 100%;
 flex-wrap: wrap;
 }
 .Jogadores{
-   height: 400px;
+   height: 500px;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -402,23 +401,11 @@ justify-content: center;
     align-content: center;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 b{
     align-items: center;
     display: flex
-}
-
-@media(max-width: 768px){
-    .container{
-        display: none;
-    }
-    .time{
-        display: none;
-    }
-    .banner{
-        display: none;
-    }
 }
 
 img{
