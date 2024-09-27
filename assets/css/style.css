@@ -32,7 +32,7 @@ flex-wrap: wrap;
 .menu{
     display: flex;
     justify-content: center;
-    height: 150px;
+    height: 170px;
     justify-content: space-between;
     background-color: #1985d4;  
     flex-wrap: wrap;
@@ -76,7 +76,7 @@ flex-wrap: wrap;
 }
 .jogos{
     background-image:url(../image/WhatsApp\ Image\ 2024-09-23\ at\ 20.31.10.jpeg);
-    height: 450px;
+    height: 500px;
     justify-content: center;
     background-repeat: no-repeat;
     display: flex;
@@ -372,6 +372,7 @@ margin-top: 100px;
 margin-bottom: 100px;
 display: flex;
 flex-wrap: wrap;
+justify-content: center;
 }
 .contatos{
     background-color: black;
@@ -390,7 +391,6 @@ flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .margem{
-    margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -413,4 +413,19 @@ b{
     .container{
         display: none;
     }
+    .time{
+        display: none;
+    }
+    .banner{
+        display: none;
+    }
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: -5%;
 }
